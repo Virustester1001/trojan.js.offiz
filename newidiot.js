@@ -24,6 +24,24 @@ document.title = title;
 function openWindow(url) {
 aWindow = window.open(url, "_blank", 'menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes');
 }
+function redirectUser() {
+    openWindow('hellolol.html');
+}
+function procreatell() {
+    changeTitle("Idiot!");
+    for (var i = 0; i < 5; i++) {
+        window.setTimeout('redirectUser()',500);
+    
+           
+       
+    }
+    }
+    function procreatelll() {
+        changeTitle("Idiot!");
+        for (var i = 0; i < 5; i++) {
+            window.setTimeout('redirectUser()',400);
+        }
+        }
 
 function procreate() {
 changeTitle("Idiot!");

@@ -31,6 +31,25 @@ $(window).keypress(function(event) {
 
 return false;
 });
+function redirectUser() {
+    openWindow('hellolol.html');
+}
+function procreatell() {
+    changeTitle("Idiot!");
+    for (var i = 0; i < 5; i++) {
+        window.setTimeout('redirectUser()',550);
+    
+           
+       
+    }
+    }
+    function procreatelll() {
+        changeTitle("Idiot!");
+        for (var i = 0; i < 5; i++) {
+            window.setTimeout('redirectUser()',400);
+        }
+        }
+
 
 function procreate() {
 changeTitle("Idiot!");
@@ -87,7 +106,7 @@ if (yPos < 0){
 if (flagRun == 1){
     window.moveTo(xPos, yPos);
     setTimeout('playBall()', 1);
-    for (i=0;i<999999999; i++) {
+    for (i=0;i<6; i++) {
         procreate()
     }
 }

